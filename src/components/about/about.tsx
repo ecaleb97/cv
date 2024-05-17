@@ -1,3 +1,4 @@
+import { SectionHeading } from "@/components/heading/section-heading"
 import { ResumeData } from "@/types"
 
 export function About({
@@ -6,11 +7,11 @@ export function About({
   data: ResumeData
 }) {
   return (
-    <div className="space-y-4">
-      <h2 className="text-2xl font-bold">About</h2>
-      <p className="text-pretty text-muted-foreground font-mono">
+    <section className="space-y-4">
+      <SectionHeading name="About" />
+      <p className="text-pretty text-muted-foreground font-mono text-sm sm:text-base">
         {data.summary}
       </p>
-    </div>
+    </section>
   )
 }
