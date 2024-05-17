@@ -1,4 +1,7 @@
+import { About } from "@/components/about/about";
+import { SocialLinksButtons } from "@/components/social/social-links-buttons";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { data } from "@/constants";
 import { GlobeIcon } from "lucide-react";
 
 export default function Home() {
@@ -11,41 +14,42 @@ export default function Home() {
         className="mx-auto w-full max-w-2xl space-y-8 bg-white
         print:space-y-6"
       >
-        <div className="flex items-center justify-between space-x-4">
-          <div className="flex-1 space-y-2">
+        <div className="flex items-center justify-between gap-4">
+          <div className="flex flex-col gap-2">
             <h1 className="text-xl sm:text-3xl font-bold">
-              Caleb Zamalloa
+              {data.name}
             </h1>
             <p 
               className="max-w-md text-balance font-mono text-sm text-muted-foreground
               sm:text-base"
             >
-              Full-stack developer focused in create amazing UX/UI experiences.
+              {data.about}
             </p>
             <p className="flex items-center gap-2 text-sm text-muted-foreground sm:text-base">
               <GlobeIcon className="size-3" />
-              Madrid, Spain
+              {data.location}
             </p>
-            <section>
-              
-            </section>
+            <SocialLinksButtons data={data} />
           </div>
           <a 
             href="https://github.com/ecaleb97" 
             target="_blank" 
             rel="noreferrer noopener"
           >
-            <Avatar className="size-20 sm:size-28 border">
-              <AvatarImage src="./favicon.ico" alt="" />
+            <Avatar 
+              className="size-20 hidden mini:block mini:size-20 
+              normal:size-28 border"
+            >
+              <AvatarImage src={data.avatar} alt="Caleb's portrait" />
               <AvatarFallback 
                 className="font-mono font-bold text-2xl"
               >
-              CZ
+                {data.initials}
               </AvatarFallback>
             </Avatar>
           </a>
         </div>
-        
+        <About data={data} />
       </section>
     </main>
   );
