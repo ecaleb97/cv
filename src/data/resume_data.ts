@@ -1,6 +1,5 @@
 import { Github } from "@/components/icons/github";
 import { LinkedIn } from "@/components/icons/linkedin";
-import { X as Twitter } from "@/components/icons/x";
 
 export const RESUME_DATA = {
 	name: "Caleb Zamalloa",
