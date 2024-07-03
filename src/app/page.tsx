@@ -4,6 +4,13 @@ import { Intro } from "@/components/intro/intro";
 import { Projects } from "@/components/projects/projects";
 import { WorkExperience } from "@/components/work/work-experience";
 import { data } from "@/constants";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "CV | Caleb Zamalloa",
+	description:
+		"Full-stack developer focused in create amazing UX/UI experiences.",
+};
 
 export default function Home() {
 	return (
