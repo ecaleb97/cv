@@ -45,7 +45,7 @@ export const RESUME_DATA = {
 	},
 	education: [
 		{
-			school: "Universidad Politécnica de Madrid",
+			school: "Polytechnic University of Madrid",
 			degree: "Telematics Engineering",
 			from: "2017",
 			to: "2020",
