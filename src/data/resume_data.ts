@@ -65,21 +65,24 @@ export const RESUME_DATA = {
 			position: "Mobile Device Management",
 			from: "2022",
 			to: "2023",
-			description: "Developing and maintaining MDM solutions for clients.",
+			description: `Spearheading the development and maintenance of cutting-edge 
+			Mobile Device Management (MDM) solutions, catering to diverse client needs.`,
 		},
 		{
 			company: "K-tuin Sistemas Informáticos",
 			position: "Frontend Developer",
 			from: "2020",
 			to: "2022",
-			description: "Repairing, maintaining Apple products.",
+			description:
+				"Developing new intranet interface and maintaining legacy code.",
 		},
 		{
 			company: "Freelance",
 			position: "Private Math Tutor",
 			from: "2017",
 			to: "Present",
-			description: "Teaching math to students.",
+			description: `Providing personalized and comprehensive math tutoring services to students across various levels, 
+				adapting to individual learning styles for optimal results.`,
 		},
 	],
 	projects: [
