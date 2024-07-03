@@ -36,11 +36,6 @@ export const RESUME_DATA = {
 				url: "https://linkedin.com/in/caleb-villanueva-zamalloa",
 				icon: LinkedIn,
 			},
-			{
-				name: "X (Twitter)",
-				url: "https://x.com/ecaleb97",
-				icon: Twitter,
-			},
 		],
 	},
 	education: [
