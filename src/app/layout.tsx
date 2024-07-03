@@ -6,26 +6,28 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "CV | Caleb Zamalloa",
-  description: "Full-stack developer focused in create amazing UX/UI experiences.",
+	title: "CV | Caleb Zamalloa",
+	description:
+		"Full-stack developer focused in create amazing UX/UI experiences.",
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en" className={cn(
-      "min-h-screen bg-background font-sans antialiased",
-      GeistSans.variable,
-      GeistMono.variable,
-    )}>
-      <body>
-        <TooltipProvider>
-          {children}
-        </TooltipProvider>
-      </body>
-    </html>
-  );
+	return (
+		<html
+			lang="en"
+			className={cn(
+				"min-h-screen bg-background font-sans antialiased",
+				GeistSans.variable,
+				GeistMono.variable,
+			)}
+		>
+			<body>
+				<TooltipProvider>{children}</TooltipProvider>
+			</body>
+		</html>
+	);
 }
