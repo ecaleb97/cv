@@ -115,6 +115,20 @@ export const RESUME_DATA = {
 			},
 		},
 		{
+			title: "AI Chatbot",
+			techStack: [
+				"TypeScript",
+				"Next.js",
+				"Tailwind CSS",
+				"React",
+				"shadcn/ui",
+			],
+			description: "SAAS chatbot using AI",
+			link: {
+				href: "",
+			},
+		},
+		{
 			title: "Auth Template",
 			techStack: [
 				"TypeScript",
