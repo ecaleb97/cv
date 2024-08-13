@@ -39,7 +39,7 @@ export const RESUME_DATA = {
 	},
 	education: [
 		{
-			school: "Polytechnic University of Madrid",
+			school: "Universidad Politécnica de Madrid",
 			degree: "Telematics Engineering",
 			from: "2017",
 			to: "2020",
@@ -87,29 +87,31 @@ export const RESUME_DATA = {
 	],
 	projects: [
 		{
+			title: "Recetas AI",
+			techStack: [
+				"TypeScript",
+				"React",
+				"Next.js",
+				"Tailwind CSS",
+				"shadcn/ui",
+			],
+			description: "Recipe search engine using AI",
+			link: {
+				href: "https://recetas.ecaleb.dev",
+			},
+		},
+		{
 			title: "We Grow",
 			techStack: [
 				"TypeScript",
 				"Next.js",
 				"Tailwind CSS",
-				"Fullstack Developer",
+				"React",
+				"shadcn/ui",
 			],
 			description: "Hack4good Telefonica 2024 winner project",
 			link: {
 				href: "",
-			},
-		},
-		{
-			title: "e-commerce",
-			techStack: [
-				"TypeScript",
-				"Next.js",
-				"Tailwind CSS",
-				"Fullstack Developer",
-			],
-			description: "e-commerce website for a client",
-			link: {
-				href: "https://ecaleb.dev",
 			},
 		},
 		{
@@ -118,7 +120,8 @@ export const RESUME_DATA = {
 				"TypeScript",
 				"Next.js",
 				"Tailwind CSS",
-				"Fullstack Developer",
+				"React",
+				"shadcn/ui",
 			],
 			description: "Authentication template for Next.js project",
 			link: {
@@ -130,7 +133,7 @@ export const RESUME_DATA = {
 			techStack: ["C", "Makefile"],
 			description: "My own library of functions in C",
 			link: {
-				href: "",
+				href: "https://github.com/ecaleb97/libft",
 			},
 		},
 	],

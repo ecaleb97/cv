@@ -21,12 +21,12 @@ export function SocialLinksButtons({ data }: { data: ResumeData }) {
 			icon: social.icon,
 			type: "social",
 		})),
-		{
-			name: data.contact.link.name,
-			url: data.contact.link.url,
-			icon: Link,
-			type: "Other links",
-		},
+		// {
+		// 	name: data.contact.link.name,
+		// 	url: data.contact.link.url,
+		// 	icon: Link,
+		// 	type: "Other links",
+		// },
 		{
 			name: data.contact.email.name,
 			url: `mailto:${data.contact.email.at}`,
@@ -72,12 +72,15 @@ export function SocialLinksButtons({ data }: { data: ResumeData }) {
         text-sm text-muted-foreground"
 			>
 				{linkData
-					.filter((link) => ["website", "email"].includes(link.type))
+					.filter((link) => ["website"].includes(link.type))
 					.map((link) => (
 						<li key={link.url}>
 							<a href={link.url}>{link.url}</a>
 						</li>
 					))}
+			</ul>
+			<ul className="hidden print:block text-muted-foreground">
+				<li>ecaleb.vz@gmail.com</li>
 			</ul>
 		</>
 	);

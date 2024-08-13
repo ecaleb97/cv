@@ -1,5 +1,5 @@
 import { ResumeData } from "@/types";
-import { SectionHeading } from "../heading/section-heading";
+import { SectionHeading } from "@/components/heading/section-heading";
 
 export function Education({ data }: { data: ResumeData }) {
 	return (

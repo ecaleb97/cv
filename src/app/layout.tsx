@@ -1,7 +1,4 @@
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { cn } from "@/lib/utils";
-import { GeistMono } from "geist/font/mono";
-import { GeistSans } from "geist/font/sans";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -17,14 +14,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html
-			lang="en"
-			className={cn(
-				"min-h-screen bg-background font-sans antialiased",
-				GeistSans.variable,
-				GeistMono.variable,
-			)}
-		>
+		<html lang="en" className="min-h-screen bg-background antialiased">
 			<body>
 				<TooltipProvider>{children}</TooltipProvider>
 			</body>

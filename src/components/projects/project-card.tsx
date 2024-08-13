@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/card";
 import Link from "next/link";
 import { Badge } from "../ui/badge";
+import { ArrowUpRight } from "lucide-react";
 
 type Props = {
 	title: string;
@@ -28,11 +29,12 @@ export function ProjectCard({
 					<CardTitle className="pb-2">
 						<Link
 							href={link}
-							className="text-lg"
+							className="text-lg flex items-center gap-2 hover:underline hover:underline-offset-4 hover:decoration-dotted"
 							target="_blank"
 							rel="noopener noreferer"
 						>
 							{title}
+							<ArrowUpRight className="size-3 print:hidden" />
 						</Link>
 					</CardTitle>
 					<CardDescription className="min-h-10 overflow-hidden">
@@ -40,7 +42,7 @@ export function ProjectCard({
 					</CardDescription>
 				</div>
 			</CardHeader>
-			<CardContent className="px-4 pb-4">
+			<CardContent className="px-4 pb-4 print:hidden">
 				<div className="mt-2 flex flex-wrap gap-2">
 					{tags.map((tag) => (
 						<Badge
