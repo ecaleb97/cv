@@ -18,7 +18,7 @@ export const RESUME_DATA = {
 	contact: {
 		link: {
 			name: "Other links",
-			url: "https://link.ecaleb.dev",
+			url: "https://links.ecaleb.dev",
 		},
 		email: {
 			name: "Email",
