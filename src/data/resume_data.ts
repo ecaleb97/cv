@@ -5,11 +5,10 @@ export const RESUME_DATA = {
 	name: "Caleb Zamalloa",
 	initials: "CZ",
 	location: "Madrid, Spain",
-	about: `Fullstack Developer focused in create
-  amazing UX/UI experiences`,
-	summary: `Fullstack developer. I use the most recent and
-  advanced technologies to improve use experience, accesibility
-  and maximize web app performance.`,
+	about: `Fullstack Developer +4 years of experience.`,
+	summary: `+4 years of experience in web development. 
+	I'm passionate about UX/UI desing and I love to create amazing experiences for users. 
+	I've worked in different projects and companies, always looking for the best solution for the client.`,
 	avatar: "/assets/me.webp",
 	portfolioInfo: {
 		name: "Portfolio",
@@ -55,34 +54,80 @@ export const RESUME_DATA = {
 		{
 			company: "Freelance",
 			position: "Fullstack Developer",
-			from: "2023",
+			from: "2024",
 			to: "Present",
 			description:
 				"Developing web applications, landing pages and websites for clients.",
 		},
 		{
 			company: "Indra Sistemas (Minsait)",
-			position: "Mobile Device Management",
+			position: "Frontend Developer",
 			from: "2022",
-			to: "2023",
-			description: `Spearheading the development and maintenance of cutting-edge 
-			Mobile Device Management (MDM) solutions, catering to diverse client needs.`,
+			to: "2024",
+			description: `I had the opportunity to work in intranet applications for the 
+			company and dive into the world of Mobile Device Management.`,
 		},
 		{
 			company: "K-tuin Sistemas Informáticos",
 			position: "Frontend Developer",
 			from: "2020",
 			to: "2022",
-			description:
-				"Developing new intranet interface and maintaining legacy code.",
+			description: `During my time at this company I was in charge of developing the 
+				company's internal tools. API integrations and complex frontend development.`,
+		},
+	],
+	skills: [
+		{
+			name: "HTML",
+			level: "Master",
 		},
 		{
-			company: "Freelance",
-			position: "Private Math Tutor",
-			from: "2017",
-			to: "Present",
-			description: `Providing personalized and comprehensive math tutoring services to students across various levels, 
-				adapting to individual learning styles for optimal results.`,
+			name: "CSS",
+			level: "Master",
+		},
+		{
+			name: "JavaScript",
+			level: "Master",
+		},
+		{
+			name: "Tailwind",
+			level: "Advanced",
+		},
+		{
+			name: "React",
+			level: "Advanced",
+		},
+		{
+			name: "Next.js",
+			level: "Advanced",
+		},
+		{
+			name: "TypeScript",
+			level: "Advanced",
+		},
+		{
+			name: "Node",
+			level: "Advanced",
+		},
+		{
+			name: "Git",
+			level: "Advanced",
+		},
+		{
+			name: "Github",
+			level: "Advanced",
+		},
+		{
+			name: "C",
+			level: "Intermediate",
+		},
+		{
+			name: "Python",
+			level: "Intermediate",
+		},
+		{
+			name: "Java",
+			level: "Intermediate",
 		},
 	],
 	projects: [
