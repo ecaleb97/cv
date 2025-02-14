@@ -39,7 +39,7 @@ export function Skills() {
 
 	return (
 		<>
-			<SectionHeading	name="Skills" />
+			<SectionHeading name="Skills" />
 			<ul className="inline-flex gap-2 flex-wrap">
 				{skills.map((skill) => {
 					const iconName: string =
