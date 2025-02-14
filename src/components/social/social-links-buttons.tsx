@@ -80,7 +80,7 @@ export function SocialLinksButtons({ data }: { data: ResumeData }) {
 					))}
 			</ul>
 			<ul className="hidden print:block text-muted-foreground">
-				<li>ecaleb.vz@gmail.com</li>
+				<li>calebzamalloa90@gmail.com</li>
 			</ul>
 		</>
 	);
