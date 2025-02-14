@@ -1,6 +1,5 @@
 import {
 	Card,
-	CardContent,
 	CardDescription,
 	CardHeader,
 	CardTitle,
@@ -30,7 +29,7 @@ export function ProjectCard({
 					<CardTitle className="pb-2">
 						<Link
 							href={link}
-							className="text-lg flex items-center gap-2 hover:underline hover:underline-offset-4 hover:decoration-dotted"
+							className="text-[1rem] flex items-center gap-2 hover:underline hover:underline-offset-4 hover:decoration-dotted"
 							target="_blank"
 							rel="noopener noreferer"
 						>

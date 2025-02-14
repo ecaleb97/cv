@@ -159,14 +159,14 @@ export const RESUME_DATA = {
 			},
 		},
 		{
-			title: "Auth Template",
+			title: "Github Profile Viewer",
 			techStack: [
 				"TypeScript",
 				"Next.js",
 				"Tailwind CSS",
 				"shadcn/ui",
 			],
-			description: "Authentication template for Next.js project",
+			description: "In this project I built a Github profile viewer using the Github API and Next.js.",
 			link: {
 				href: "",
 			},
