@@ -4,6 +4,7 @@ import {
 	CardDescription,
 	CardHeader,
 	CardTitle,
+	CardFooter
 } from "@/components/ui/card";
 import Link from "next/link";
 import { Badge } from "../ui/badge";
@@ -42,20 +43,20 @@ export function ProjectCard({
 					</CardDescription>
 				</div>
 			</CardHeader>
-			<CardContent className="px-4 pb-4 print:hidden">
+			<CardFooter className="px-4 pb-4 print:hidden">
 				<div className="mt-2 flex flex-wrap gap-2">
 					{tags.map((tag) => (
 						<Badge
 							key={tag}
-							className="px-2 py-1 text-[10px] print:px-1 print:py-0.5 
-							print:text-[8px] print:leading-tight bg-slate-200/50 
-							text-black rounded-md hover:bg-transparent"
+							className="font-medium text-[.6rem] px-1 py-[.1rem] print:px-1 print:py-0.5 
+							print:text-[8px] print:leading-tight bg-[#eee]
+							text-[#444] rounded-md hover:bg-transparent"
 						>
 							{tag}
 						</Badge>
 					))}
 				</div>
-			</CardContent>
+			</CardFooter>
 		</Card>
 	);
 }

@@ -21,7 +21,7 @@ export const RESUME_DATA = {
 		},
 		email: {
 			name: "Email",
-			at: "ecaleb.vz@gmail.com",
+			at: "calebzamalloa90@gmail.com",
 		},
 		social: [
 			{
@@ -133,42 +133,27 @@ export const RESUME_DATA = {
 	projects: [
 		{
 			title: "Recetas AI",
-			techStack: [
-				"TypeScript",
-				"React",
-				"Next.js",
-				"Tailwind CSS",
-				"shadcn/ui",
-			],
-			description: "Recipe search engine using AI",
+			techStack: ["TypeScript", "Next.js", "Tailwind CSS", "shadcn/ui"],
+			description:
+				"This project consists of a recipe search engine using the Vercel AI SDK",
 			link: {
 				href: "https://recetas.ecaleb.dev",
 			},
 		},
 		{
 			title: "We Grow",
-			techStack: [
-				"TypeScript",
-				"Next.js",
-				"Tailwind CSS",
-				"React",
-				"shadcn/ui",
-			],
-			description: "Hack4good Telefonica 2024 winner project",
+			techStack: ["TypeScript", "Next.js", "Tailwind CSS", "shadcn/ui"],
+			description:
+				"(Winner Hack4Good 2024) Me and my team built this project in less than 24 hours to help local businesses in Spain.",
 			link: {
 				href: "",
 			},
 		},
 		{
 			title: "AI Chatbot",
-			techStack: [
-				"TypeScript",
-				"Next.js",
-				"Tailwind CSS",
-				"React",
-				"shadcn/ui",
-			],
-			description: "SAAS chatbot using AI",
+			techStack: ["TypeScript", "Next.js", "Tailwind CSS", "shadcn/ui"],
+			description:
+				"This project is using Vercel's AI SDK to create a chatbot that can answer questions about the project.",
 			link: {
 				href: "",
 			},
@@ -179,7 +164,6 @@ export const RESUME_DATA = {
 				"TypeScript",
 				"Next.js",
 				"Tailwind CSS",
-				"React",
 				"shadcn/ui",
 			],
 			description: "Authentication template for Next.js project",
@@ -190,10 +174,18 @@ export const RESUME_DATA = {
 		{
 			title: "Libft",
 			techStack: ["C", "Makefile"],
-			description: "My own library of functions in C",
+			description: "In this project I had to recreate some of the functions from the C standard library.",
 			link: {
 				href: "https://github.com/ecaleb97/libft",
 			},
 		},
+		{
+			title: "Pacman",
+			techStack: ["C", "Makefile", "minilibx"],
+			description: "In this project I had to recreate a 2D game using the minilibx library. Similar to the classic game Pacman.",
+			link: {
+				href: "https://github.com/ecaleb97/so_long",
+			},
+		}
 	],
 };
