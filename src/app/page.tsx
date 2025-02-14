@@ -5,6 +5,7 @@ import { Projects } from "@/components/projects/projects";
 import { WorkExperience } from "@/components/work/work-experience";
 import { data } from "@/constants";
 import { Metadata } from "next";
+import { Skills } from "@/components/skills"
 
 export const metadata: Metadata = {
 	title: "CV | Caleb Zamalloa",
@@ -24,6 +25,7 @@ export default function Home() {
 				<WorkExperience data={data} />
 				<Education data={data} />
 				<Projects />
+				<Skills />
 			</section>
 		</main>
 	);
