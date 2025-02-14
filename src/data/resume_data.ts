@@ -160,13 +160,9 @@ export const RESUME_DATA = {
 		},
 		{
 			title: "Github Profile Viewer",
-			techStack: [
-				"TypeScript",
-				"Next.js",
-				"Tailwind CSS",
-				"shadcn/ui",
-			],
-			description: "In this project I built a Github profile viewer using the Github API and Next.js.",
+			techStack: ["TypeScript", "Next.js", "Tailwind CSS", "shadcn/ui"],
+			description:
+				"A tool for displaying GitHub user profiles, showcasing profile details, repositories, contributions, and activity.",
 			link: {
 				href: "",
 			},
@@ -174,7 +170,8 @@ export const RESUME_DATA = {
 		{
 			title: "Libft",
 			techStack: ["C", "Makefile"],
-			description: "In this project I had to recreate some of the functions from the C standard library.",
+			description:
+				"In this project I had to recreate some of the functions from the C standard library.",
 			link: {
 				href: "https://github.com/ecaleb97/libft",
 			},
@@ -182,10 +179,11 @@ export const RESUME_DATA = {
 		{
 			title: "Pacman",
 			techStack: ["C", "Makefile", "minilibx"],
-			description: "In this project I had to recreate a 2D game using the minilibx library. Similar to the classic game Pacman.",
+			description:
+				"In this project I had to recreate a 2D game using the minilibx library. Similar to the classic game Pacman.",
 			link: {
 				href: "https://github.com/ecaleb97/so_long",
 			},
-		}
+		},
 	],
 };
