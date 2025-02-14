@@ -10,9 +10,9 @@ export function Education({ data }: { data: ResumeData }) {
 					<li key={education.school} className="space-y-2">
 						<div className="flex items-center justify-between">
 							<h3 className="font-semibold">{education.school}</h3>
-							<p className="text-muted-foreground">
+							{/* <p className="text-muted-foreground">
 								{education.from} - {education.to}
-							</p>
+							</p> */}
 						</div>
 						<p className="text-muted-foreground text-sm">{education.degree}</p>
 					</li>
