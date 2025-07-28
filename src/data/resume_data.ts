@@ -5,8 +5,8 @@ export const RESUME_DATA = {
 	name: "Caleb Zamalloa",
 	initials: "CZ",
 	location: "Madrid, Spain",
-	about: `Fullstack Developer +4 years of experience.`,
-	summary: `+4 years of experience in web development. 
+	about: `Fullstack Developer +3 years of experience.`,
+	summary: `+3 years of experience in web development. 
 	I'm passionate about UX/UI desing and I love to create amazing experiences for users. 
 	I've worked in different projects and companies, always looking for the best solution for the client.`,
 	avatar: "/assets/me.webp",
@@ -47,7 +47,7 @@ export const RESUME_DATA = {
 			school: "42 Madrid",
 			degree: "Software Engineering",
 			from: "2023",
-			to: "Present",
+			to: "2025",
 		},
 	],
 	work: [

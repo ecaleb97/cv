@@ -1,3 +1,3 @@
 export function SectionHeading({ name }: { name: string }) {
-	return <h2 className="text-2xl font-bold">{name}</h2>;
+	return <h2 className="text-2xl font-bold mb-4">{name}</h2>;
 }

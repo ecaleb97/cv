@@ -4,7 +4,7 @@ import { SectionHeading } from "../heading/section-heading";
 
 export function Projects() {
 	return (
-		<section className="print-force-new-page">
+		<section className="print-force-new-page print:hidden">
 			<SectionHeading name="Projects" />
 			<div className="my-4 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 sm:grid-cols-2 lg:grid-cols-3">
 				{RESUME_DATA.projects.map((project) => (

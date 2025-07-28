@@ -38,7 +38,7 @@ export function Skills() {
 	};
 
 	return (
-		<>
+		<div className="">
 			<SectionHeading name="Skills" />
 			<ul className="inline-flex gap-2 flex-wrap">
 				{skills.map((skill) => {
@@ -59,6 +59,6 @@ export function Skills() {
 					);
 				})}
 			</ul>
-		</>
+		</div>
 	);
 }

@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" className="min-h-screen bg-background antialiased">
-			<body>
+			<body className="print:text-sm">
 				<TooltipProvider>{children}</TooltipProvider>
 			</body>
 		</html>

@@ -7,7 +7,9 @@ export function Intro({ data }: { data: ResumeData }) {
 	return (
 		<div className="flex items-center justify-between gap-4">
 			<div className="flex flex-col gap-2">
-				<h1 className="text-xl sm:text-3xl font-bold">{data.name}</h1>
+				<h1 className="text-xl sm:text-3xl font-bold ">
+					{data.name}
+				</h1>
 				<p
 					className="max-w-md text-balance text-sm text-muted-foreground
 					sm:text-base"
