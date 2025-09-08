@@ -57,23 +57,27 @@ export const RESUME_DATA = {
 			from: "2024",
 			to: "Present",
 			description:
-				"Developing web applications, landing pages and websites for clients.",
+				`In my capacity as a freelance developer, I specialize in building and maintaining responsive websites from concept to deployment. I collaborated directly with clients
+				to translate their design visions into functional, reusable components and dynamic user interfaces. A key part of my role involved integrating third-party and custom
+				APIs to ensure full functionality.`,
 		},
 		{
 			company: "Indra Sistemas (Minsait)",
 			position: "Frontend Developer",
 			from: "2022",
 			to: "2024",
-			description: `I had the opportunity to work in intranet applications for the 
-			company and dive into the world of Mobile Device Management.`,
+			description: `I participated in the development of web apps focused on usability and performance. My work involved implementing dynamic interfaces
+			using TypeScript and React (Next.js), ensuring accessibility and cross-device compatibility. Collaborated with the design team to translate mockups into
+			real user experiences and with the backend team to integrate services through REST APIs.`,
 		},
 		{
 			company: "K-tuin Sistemas Informáticos",
 			position: "Frontend Developer",
 			from: "2020",
 			to: "2022",
-			description: `During my time at this company I was in charge of developing the 
-				company's internal tools. API integrations and complex frontend development.`,
+			description: `In my role as a frontend developer, I was responsible for developing and maintaining optimized and responsive web apps, ensuring the best
+			user experience, as well as integrating APIs in collaboration with the backend team. During this experience, I translated designs into reusable components
+			and improved web performance through code optimization and unit testing.`,
 		},
 	],
 	skills: [
